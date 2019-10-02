@@ -1,0 +1,30 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+
+}
+
+.block-left_menu{
+	background-color:#0C0;
+	
+	width:10%;
+	min-width:100px;
+	min-height:100%;
+}
+.block-left_cats{
+	background-color:#000;
+	
+	width:20%;
+	min-height:100%;
+}
+.block-center{
+	background-color:#CF0;
+	
+	width:70%;
+	min-height:100%;
+}

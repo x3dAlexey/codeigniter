@@ -1,0 +1,316 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color:#f2f6f9;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+h1,h2{
+	font-family: 'Philosopher', sans-serif;
+	text-align:center;
+	font-style:italic;
+	color:#393939;
+}
+h3,h4,h5,h6{
+	font-family:Arial, Helvetica, sans-serif;
+	color:#016fae;
+}
+h1{font-size:30px;}
+h2{font-size:20px;}
+h3{font-size:18px;}
+h4{font-size:14px; font-weight:bold;}
+h5{font-size:13px;}
+h6{font-size:11px; font-weight:bold;}
+
+p{color:#393939;}
+
+a:hover{
+	text-decoration:none;
+	color:#a30bb1;
+	-webkit-transition-duration: 0.7s; 
+	-o-transition-duration: 0.7s; 
+	-moz-transition-duration: 0.7s; 
+	transition-duration: 0.7s;
+}
+.href_foot{
+	color:#393939;
+	text-decoration:underline;
+}
+.href_text{
+	color:#016fae;
+	text-decoration:underline;
+}
+
+.container{
+	width:1200px;
+	padding:0;
+}
+/* топ блок */
+.header{
+	display:block;
+	background:url(../img/head.jpg) no-repeat;
+	height:317px;
+	width:!important;
+	padding-top:28px;
+}
+	.logo{
+		display:block;
+		width:227px;
+		height:75px;
+		margin:0 auto;
+	}
+	.menu{
+		display:block;
+		background-color:#fefeff;
+		list-style:none;
+		max-width:1000px;
+		height:50px;
+		margin:30px auto 0;
+		padding:5px 60px;
+		opacity:0.9;
+		
+	}
+		.menu li{
+			background: url(../img/menu.gif) center right no-repeat;
+			float:left;
+			padding-left:40px;
+			padding-right:48px;
+		}
+		.menu li:first-child{
+			padding-left:0;
+		}
+		.menu li:last-child{
+			padding-right:0;
+			background:none;
+			
+		}
+			.menu li a{
+				display:block;
+				width:105px;
+				color:#3d8fca;
+				font-family: 'Philosopher', sans-serif;
+				font-size:15px;
+				line-height:20px;
+				text-overflow: ellipsis;
+				text-transform:uppercase;
+				text-align:right;
+			}
+			.menu li a:hover{text-decoration:none;}
+			
+	.sub_menu{
+		max-width:1000px;
+		margin:20px auto 0;
+		padding-bottom:24px;
+		border-bottom:3px #dddddd solid;
+	}
+		
+		.col-sm-4{
+			width:320px;
+			background-color:#feffff;
+			padding:10px;
+			height:88px;
+			margin-right:17px;
+		}
+			.media-object{ margin-top:5px;}
+			.media-body{
+				font-size:12px;
+				line-height:17px;
+			}
+				.media-body strong{ font-size:14px;}
+			
+			
+		
+		.adres{
+			float:right;
+			background:url(../img/sub3.gif) top left no-repeat;
+			font-family: 'Philosopher', sans-serif;
+			font-size:24px;
+			text-align:center;
+			color:#a30bb1;
+			padding:0;
+			margin-right:0;
+		}
+			.adres > span:first-child{
+				display:block;
+				margin-top:15px;
+			}
+/* центральная */
+.main{
+	background-color:#fff;
+	padding:0 100px;
+}
+.content{
+	display:block;
+	min-width:100%;
+	padding-bottom:30px;
+	border-bottom:3px #6284a7 solid;
+}
+	.navigation{
+		width:500px;
+		margin:20px 0;
+		padding-left:15px;
+		color:#016fae;
+		list-style-type:decimal;
+
+	}
+		.navigation li{
+			padding-left:20px;
+		}
+			.navigation li a{text-decoration:underline;}
+			.navigation li span{
+				display:inline-block;
+				text-align:right;
+				float:right;
+			}
+			
+	.brd{
+		 border:#c1c1c1 solid 1px;
+    border-collapse: separate; /* Способ отображения границы */ 
+    width:50%; /* Ширина таблицы */ 
+   border-collapse: collapse; 
+   }
+   th{
+	   padding:10px; /* Поля вокруг текста */ 
+    border:#c1c1c1 solid 1px;
+   }
+   td {
+    padding:10px; /* Поля вокруг текста */ 
+    border:#c1c1c1 solid 1px;
+   }
+		
+/* правый блок */
+.right-block{
+	float: right;
+	
+	width:270px;
+	height:1000px;
+	margin-left:50px;
+}
+	.hover_doc{
+		display:block;
+		background-color:#f4f5f9;
+		text-align:center;
+		padding:5px;
+		border-bottom:3px #dddddd solid;
+		color:#007cc3;
+		margin-top:20px;
+	}
+		.docs{margin:20px 0;}
+		.docs img{margin-left:10px;}
+		.docs a{
+			display:block;
+			font-size:14px;
+			margin-left:10px;
+			text-align:left;
+			text-decoration:underline;
+			word-wrap: break-word;
+		}
+	
+	.register_group{
+		margin:30px 0;
+	}
+		.registr{
+			display:block;
+			background:url(../img/href.gif) no-repeat;
+			width:270px;
+			height:30px;
+			color:#fff;
+			padding:5px;
+			border-radius:5px;
+			text-align:center;
+		}
+			.registr:hover{
+				text-decoration:none;
+			}
+		.reg{
+			display:block;
+			padding:10px 5px;
+			border-bottom:1px #dddddd solid;
+		}
+	.bdr2_img{
+		width:265px;
+		height:185px;
+		margin:20px 0;
+		border:#dedede solid 1px;
+	}
+	.brd2{
+		width:265px;
+		height:185px;
+		margin:20px 0;
+		border:#dedede solid 1px;
+	}
+	.list_mark{
+		margin:10px 0;
+		list-style:url(../img/mark.gif);
+	}
+/* бот модули */
+.module{
+	width:100%;
+	height:88px;
+	overflow:hidden;
+}
+.btm{
+	background-color:#e1e1e1;
+	height:88px;
+}
+/* 
+@active - ширина на всю
+@active2 - делять по пополам
+@active3 - 3 модуля ширина 320
+
+ */
+.active{
+	width:100%;
+}
+.active2{
+	float:left;
+	width:45%;
+	margin-right:9%;
+}
+.active3{
+	float:left;
+	width:310px;
+	margin-left:20px;
+}
+.module :first-child{
+	margin-left:0;
+}
+.disebl{
+	display:none;
+}
+.footer{
+	background:url(../img/footer.jpg) no-repeat;
+	padding-left:100px;
+	padding-bottom:30px;
+}
+	.foot{
+		float:left;
+		margin:20px 10% 0 20px;
+	}
+/* 
+@active - на всю длину и ссылки обтекают
+@disebl - скрывает модуль
+
+ */
+	.list_foot{
+		list-style:none;
+		padding-left:15px;
+		
+	}
+	.active .foot{
+		float:left;
+		margin:20px 5% 0 20px;
+		width:40%;
+	}
+	.active .list_foot{
+		
+	}
+	.active .list_foot li{
+		float:left;
+		margin:5px;
+		
+	}
+.inffoot{
+	text-align:center;
+}
